@@ -86,19 +86,19 @@ between 1 to 10, the user is then prompted to input a guess number. If the
 user input matches with guess number, the program will display a message
 "Good Work" otherwise display a message "Not matched". */
 
-function GuessTheNumber() {
+// function GuessTheNumber() {
   // guess = prompt("Pick a number between 1 to 10");
-  var randomNumber = Math.floor((Math.random() * 10) + 1);
-
-  if (randomNumber === guess) {
-    alert("Good Work!");
-  } else {
-    alert("Not Matched");
-  }
-  console.log(randomNumber);
-}
-
-GuessTheNumber();
+//   var randomNumber = Math.floor((Math.random() * 10) + 1);
+//
+//   if (randomNumber === guess) {
+//     alert("Good Work!");
+//   } else {
+//     alert("Not Matched");
+//   }
+//   console.log(randomNumber);
+// }
+//
+// GuessTheNumber();
 
 // ------------------------------------------------------------------------
 /* Write a JavaScript program to calculate days left until next Christmas. */
@@ -119,3 +119,10 @@ christmas();
 // ------------------------------------------------------------------------
 /* Write a JavaScript program to calculate multiplication and division of
 two numbers (input from user) */
+
+function solveMeFirst(x, y) {
+    // var z = x + y
+    return x + y;
+}
+
+console.log(solveMeFirst(2, 3));
